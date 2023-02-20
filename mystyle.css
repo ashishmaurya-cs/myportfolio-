@@ -1,0 +1,365 @@
+*{
+	padding:0;
+	margin:0;
+	
+}
+
+
+.bg-custom{
+	background-color: #123456;
+	color: #fff;
+}
+
+/*header*/
+.header{
+height:577px;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(im/back2.jpg);	
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+padding-top:200px;
+text-align:center;
+color:#fff;
+margin-top: 55px;
+	
+}
+.header h1{
+	padding-top:100px;
+	padding-bottom:0;
+	font-size:50px;
+	
+}
+/*navbar toggler*/
+#toggler_custom{
+	outline: none;
+}
+/*indicator*/
+
+.indicator {
+  position: fixed;
+  margin-top: 0px;
+  z-index: 1;
+  width: 100%;
+  background-color: #000;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #000;
+  width: 10%;
+}
+
+/*scroll*/
+#back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    background-color: #123456;
+    border-radius: 50%;
+    outline: none;
+    color: #fff;
+    text-overflow: inherit;
+    box-shadow: 0 0 10px rgba(0,0,0,0.29);
+
+ }
+ .scroll .fa{
+ 	color: #000;
+ }
+
+ div{
+  overflow-x: hidden;
+  overflow-y:  hidden;
+ }
+
+ /*typin text*/
+ #container {
+  text-align: center;
+}
+
+#text {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+#cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 3px;
+  height: 60px;
+  background-color: #fff;
+  animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { 
+    background-color: transparent 
+  }
+  50% { 
+    background-color: #fff; 
+  }
+}
+
+/*about me*/
+
+.aboutme{
+  background-color: #dedede;
+}
+
+.aboutme h2{
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 40px;
+}
+
+.aboutme img{
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.aboutme img:hover{
+  border: 2px solid #777777;
+}
+
+.aboutme p{
+  margin-top: 40px;
+  padding: 40px;
+  line-height: 30px;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.btn-custom{
+  outline: none;
+  background-color: #123456;
+  border: none; 
+}
+
+.btn-custom a{
+  text-decoration: none;
+  color: #fff;
+}
+.btn-custom a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
+/*qualification*/
+.qualification{
+
+  background-color: #fff;
+  padding-bottom: 70px;
+}
+.qualification .container{
+  background-color: #dedede;
+  padding: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.qualification h2{
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.qualification .col-md-4{
+  text-align: right;
+}
+
+/*skills*/
+.skills{
+  background-color: #dedede;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.skills .container{
+  margin-bottom: 10px;
+}
+
+.skills h2{
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.skills .row .col-md-4{
+  background-color: #fff;
+  padding: 10px;
+  margin : auto;  
+}
+.skills .skillsbar{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.progress-containers {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar1 {
+  height: 8px;
+  background-color: #123456;
+  width: 60%;
+}
+
+.progress-bar2 {
+  height: 8px;
+  background-color: #123456;
+  width: 55%;
+}
+
+.progress-bar3 {
+  height: 8px;
+  background-color: #123456;
+  width: 40%;
+}
+
+.progress-bar4 {
+  height: 8px;
+  background-color: #123456;
+  width: 40%;
+}
+.progress-bar5 {
+  height: 8px;
+  background-color: #123456;
+  width: 80%;
+}
+
+.progress-bar6{
+  height: 8px;
+  background-color: #123456;
+  width: 80%;
+}
+
+.progress-bar7 {
+  height: 8px;
+  background-color: #123456;
+  width: 70%;
+}
+
+.progress-bar8 {
+  height: 8px;
+  background-color: #123456;
+  width: 50%;
+}
+.progress-bar9 {
+  height: 8px;
+  background-color: #123456;
+  width: 30%;
+}
+
+.progress-bar10{
+  height: 8px;
+  background-color: #123456;
+  width: 30%;
+}
+
+.progress-bar11 {
+  height: 8px;
+  background-color: #123456;
+  width: 45%;
+}
+.progress-bar12 {
+  height: 8px;
+  background-color: #123456;
+  width: 50%;
+}
+
+/*project*/
+
+.project{
+  background-color: #fff;
+  padding-bottom: 70px;
+}
+.project h2{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.project h4{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+
+.project p{
+  background-color: #dedede;
+  padding: 40px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+
+/*getintouch*/
+.getintouch{
+  color: #fff;
+  text-align: center;
+  background-color: #123456;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.getintouch .row .col-md-4{
+  margin: auto;
+  text-align: center;
+}
+.getintouch h2{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.getintouch p{
+  font-size: 14px;
+  text-align: left;
+  padding-right: 35px;
+}
+
+.getintouch p a:link{
+  color: #fff;
+}
+
+.getintouch p a:visited{
+  color: #fff;
+}
+
+.getintouch p a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.getintouch .row .fa{
+  color: #fff;
+  padding-right: 30px;
+  font-size: 15px;
+}
+
+/*footer*/
+.footer{
+  background-color: #123;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+}
+
