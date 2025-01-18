@@ -56,27 +56,28 @@ margin-top: 55px;
 }
 
 /*scroll*/
+ /* Scroll button */
 #back-to-top {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    display: block;
-    background-color: #123456;
-    border-radius: 50%;
-    outline: none;
-    color: #fff;
-    text-overflow: inherit;
-    box-shadow: 0 0 10px rgba(0,0,0,0.29);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  background-color: #123;
+  border-radius: 50%;
+  outline: none;
+  color: #fff;
+  text-overflow: inherit;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.29);
+  z-index: 9999;
+}
+.scroll .fa {
+  color: #000;
+}
 
- }
- .scroll .fa{
- 	color: #000;
- }
-
- div{
+div {
   overflow-x: hidden;
-  overflow-y:  hidden;
- }
+  overflow-y: hidden; /* Allow vertical overflow for the button */
+}
 
  /*typin text*/
  #container {
@@ -109,38 +110,42 @@ margin-top: 55px;
   }
 }
 
-/*about me*/
 
-.aboutme{
+/*about me*/
+.aboutme {
   background-color: #dedede;
+  text-align: center; 
+  margin: 30px;
+  border-radius: 20px;
 }
 
 .aboutme h2{
   text-align: center;
   padding-top: 30px;
-  padding-left: 30px;
   font-size: 40px;
 }
 
-.aboutme img{
-  width: 400px;
-  height: 400px;
-  margin-top: 40px;
-  margin-bottom: 50px;
+.aboutme img {
+  max-width: 400px;
+  width: calc(100% - 40px);
+  height: auto; 
+  margin: 40px auto; 
   border: 2px solid black;
   border-radius: 50%;
+  display: block;
 }
 
-.aboutme img:hover{
-  border: 2px solid #777777;
-}
-
-.aboutme p{
-  margin-top: 40px;
-  padding: 40px;
-  line-height: 30px;
+.aboutme p {
+  max-width: 400px;
+  width: calc(100% - 40px);
+  margin: 40px auto; 
+  padding: 30px; 
+  line-height: 1.7; 
   font-size: 15px;
   background-color: #fff;
+  border-radius: 20px;
+  text-align: left; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn-custom{
@@ -160,15 +165,19 @@ margin-top: 55px;
 
 /*qualification*/
 .qualification{
-
-  background-color: #fff;
-  padding-bottom: 70px;
+  margin: 30px;
+  background-color: #dedede;
+  padding-bottom: 30px;
+  border-radius: 20px;
 }
 .qualification .container{
-  background-color: #dedede;
+  background-color: #fff;
+  border-radius: 20px;
   padding: 30px;
-  margin-bottom: 10px;
-  width: 100%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 .qualification h2{
   text-align: center;
@@ -183,13 +192,16 @@ margin-top: 55px;
 
 /*skills*/
 .skills{
-  background-color: #dedede;
+  background-color: #e4e4e4;
   padding-bottom: 80px;
   text-align: center;
+  margin: 30px;
+  border-radius: 20px;
 }
 
 .skills .container{
   margin-bottom: 10px;
+  border-radius: 20px;
 }
 
 .skills h2{
@@ -202,6 +214,7 @@ margin-top: 55px;
   background-color: #fff;
   padding: 10px;
   margin : auto;  
+  border-radius: 20px;
 }
 .skills .skillsbar{
   padding-top: 10px;
@@ -287,25 +300,23 @@ margin-top: 55px;
 .project{
   background-color: #fff;
   padding-bottom: 70px;
+  margin: 30px;
 }
 .project h2{
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 .project h4{
   text-align: center;
   padding-bottom: 30px;
 }
-
-
-
 .project p{
   background-color: #dedede;
   padding: 40px;
   line-height: 30px;
   font-size: 15px;
+  border-radius: 20px;
 }
 
 
