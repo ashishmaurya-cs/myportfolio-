@@ -220,7 +220,7 @@ div {
 }
 
 .gallery img{
-border: 2px solid black;
+/*border: 2px solid black;*/
 border-radius: 20px;
 width: 300px;
 height: 300px;
@@ -229,6 +229,25 @@ margin: 15px 20px 15px 20px;
 box-sizing: border-box;
 
 }
+
+
+/*location*/
+.location{
+  padding-bottom: 70px;
+}
+.location h2{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.location iframe {
+  width: 700px;
+  height: 300px;
+  border: 2px solid #dfdffc;
+  border-radius: 20px;
+}
+
 
 
 
