@@ -97,10 +97,10 @@ div {
 
 
 /*about me*/
-.aboutme{
+.aboutme {
   background-color: #dfdffc;
-   box-sizing: border-box;
-
+  text-align: center; 
+  margin-bottom: 30px;
 }
 
 .aboutme h2{
@@ -110,34 +110,29 @@ div {
   font-size: 40px;
 }
 
-.aboutme img{
-  width: 100%; /* Make image responsive */
-  max-width: 400px; /* Set max-width to avoid overflow */
-  height: auto; /* Keep aspect ratio */
-  margin-top: 40px;
-  margin-bottom: 50px;
+.aboutme img {
+  max-width: 400px;
+  width: calc(100% - 40px);
+  height: auto; 
+  margin: 40px auto; 
   border: 2px solid black;
   border-radius: 20px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.aboutme p{
-  width: 100%
-  max-width: 400px; /* Set max-width to avoid overflow */
-  margin-top: 40px;
-  margin-bottom: 50px;
-  height: auto;
-  padding: 40px;
-  line-height: 29px;
+.aboutme p {
+  max-width: 400px;
+  width: calc(100% - 40px);
+  margin: 40px auto; 
+  padding: 30px; 
+  line-height: 1.7; 
   font-size: 15px;
   background-color: #fff;
   border-radius: 20px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  text-align: left; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 
 /*services*/
@@ -153,15 +148,26 @@ div {
 
 .services h4{
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .services p{
-  background-color: #dfdffc;
+  /*background-color: #dfdffc;
   padding: 40px;
   line-height: 30px;
   font-size: 15px;
+  border-radius: 20px;*/
+
+  max-width: 400px;
+  width: calc(100% - 40px);
+  margin: 20px auto; 
+  padding: 30px; 
+  line-height: 1.7; 
+  font-size: 15px;
+  background-color: #dfdffc;
   border-radius: 20px;
+  text-align: left; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -179,15 +185,20 @@ div {
 
 .offer h4{
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .offer p{
-  background-color: #dfdffc;
-  padding: 40px;
-  line-height: 30px;
-  border-radius: 20px;
+    max-width: 400px;
+  width: calc(100% - 40px);
+  margin: 20px auto; 
+  padding: 30px; 
+  line-height: 1.7; 
   font-size: 15px;
+  background-color: #dfdffc;
+  border-radius: 20px;
+  text-align: left; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -209,13 +220,14 @@ div {
 }
 
 .gallery img{
-  border: 2px solid black;
-  border-radius: 20px;
-  width: 300px; 
-  height: 300px; 
-  object-fit: cover; 
-  margin-bottom: 15px;
-  margin-left: 20px;
+border: 2px solid black;
+border-radius: 20px;
+width: 300px;
+height: 300px;
+object-fit: cover;
+margin: 15px 20px 15px 20px;
+box-sizing: border-box;
+
 }
 
 
@@ -240,7 +252,7 @@ div {
 }
 
 .getintouch p{
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
   padding-right: 35px;
 }
@@ -272,6 +284,7 @@ div {
   height: 60px;
   text-align: center;
   padding-top: 13px;
+  padding-bottom: 10px;
   color: #fff;
 }
 .footer p img{
