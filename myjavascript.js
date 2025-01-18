@@ -26,7 +26,7 @@ function myFunction() {
 
 /*typin text*/
 var _CONTENT = [ 
-	"I'm Software Engineer."
+	"Welcome to Sanjay Maurya JCB Services."
 ];
 
 // Current sentence being processed
