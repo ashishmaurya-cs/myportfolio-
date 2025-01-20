@@ -140,6 +140,7 @@ div {
   width: calc(100% - 40px);
   margin: 40px auto; 
   padding: 30px; 
+  height: auto;
   line-height: 1.7; 
   font-size: 15px;
   background-color: #fff;
@@ -162,6 +163,32 @@ div {
   text-decoration: underline;
   color: #fff;
 }
+
+
+
+/*experience*/
+.experience{
+  margin: 30px;
+  background-color: #dedede;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+.experience .container{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.experience h2{
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 /*qualification*/
 .qualification{
@@ -202,6 +229,7 @@ div {
 .skills .container{
   margin-bottom: 10px;
   border-radius: 20px;
+    width: 90%;
 }
 
 .skills h2{
@@ -213,7 +241,7 @@ div {
 .skills .row .col-md-4{
   background-color: #fff;
   padding: 10px;
-  margin : auto;  
+  margin : auto;
   border-radius: 20px;
 }
 .skills .skillsbar{
@@ -318,6 +346,30 @@ div {
   font-size: 15px;
   border-radius: 20px;
 }
+
+
+/*achievement*/
+.achievement{
+  margin: 30px;
+  background-color: #dedede;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+.achievement .container{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.achievement h2{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 
 /*getintouch*/
